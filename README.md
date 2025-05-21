@@ -69,8 +69,7 @@ This will launch the API server at `http://localhost:8000`.
 In the `Client` directory, run:
 `dotnet run`
 
-Once the client finishes, it will generate the `event_log.jsonl` file at the root of the project folder.
-
+Once the client sends events to the server, the server appends them to a file named event_log.jsonl, which is created and stored on the server side.
 
 ### ▶️ Run the DataProcessor
 
